@@ -2,7 +2,7 @@
 
 <p>
 	<a href="https://github.com/Microck/MindLocker">
-		<img src="./assets/mindlocker-banner.png" alt="MindLocker Banner"/>
+		<img src="./assets/mindlocker-banner.png" alt="MindLocker Banner" width="600"/>
 	</a>
 </p>
 
