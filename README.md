@@ -24,11 +24,11 @@ MindLocker is a simple yet powerful desktop application for Windows designed to 
 
 ## Features
 
--   🎯 **Focus Sessions:** Block distracting sites for a set duration with a single click.
--   ✅ **Customizable Blocklist:** Choose from a pre-defined list of common distractions.
--   💻 **System-Level Blocking:** Modifies the system's hosts file for effective, browser-agnostic blocking.
--   ✨ **Clean & Modern UI:** A simple, intuitive interface built with React and Tailwind CSS.
--   📦 **Portable:** Packaged as a single `.exe` file that requires no installation.
+-    **Focus Sessions:** Block distracting sites for a set duration with a single click.
+-    **Customizable Blocklist:** Choose from a pre-defined list of common distractions.
+-    **System-Level Blocking:** Modifies the system's hosts file for effective, browser-agnostic blocking.
+-    **Clean & Modern UI:** A simple, intuitive interface built with React and Tailwind CSS.
+-    **Portable:** Packaged as a single `.exe` file that requires no installation.
 
 ## Installation
 
