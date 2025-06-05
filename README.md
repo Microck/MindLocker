@@ -13,9 +13,9 @@
 </p>
 
 <p>
-	<a href="https://github.com/Microck/MindLocker/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Microck/MindLocker?style=for-the-badge" alt="License"></a>
-	<a href="https://github.com/Microck/MindLocker/actions/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/Microck/MindLocker/build.yml?branch=main&style=for-the-badge" alt="Build Status"></a>
-	<a href="https://github.com/Microck/MindLocker"><img src="https://img.shields.io/github/last-commit/Microck/MindLocker?style=for-the-badge" alt="Last Commit"></a>
+	<img src="https://img.shields.io/github/license/Microck/MindLocker?style=for-the-badge" alt="License"></a>
+	<img src="https://img.shields.io/github/actions/workflow/status/Microck/MindLocker/build.yml?branch=main&style=for-the-badge" alt="Build Status"></a>
+	<img src="https://img.shields.io/github/last-commit/Microck/MindLocker?style=for-the-badge" alt="Last Commit"></a>
 </p>
 
 </div>
