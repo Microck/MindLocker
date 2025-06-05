@@ -30,7 +30,7 @@ MindLocker is a simple yet powerful desktop application for Windows designed to 
 -    **Clean & Modern UI:** A simple, intuitive interface built with React and Tailwind CSS.
 -    **Portable:** Packaged as a single `.exe` file that requires no installation.
 
-<img src="./assets/mindlocker-screenshot.png" alt="MindLocker Screenshot"/>
+<img src="./assets/mindlocker-screenshot.png" alt="MindLocker Screenshot" width="600"/>
 
 ## Installation
 
