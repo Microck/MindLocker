@@ -1,0 +1,34 @@
+name: Build MindLocker
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest # Use a Windows runner since it's a Windows app
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install Node.js dependencies
+      run: npm install
+
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+
+    - name: Build the application
+      run: npm run package
