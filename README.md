@@ -76,6 +76,18 @@ To build and run this project yourself, you will need [Node.js](https://nodejs.o
 
 5.  **Find the application** in the `dist_electron` folder and run it as an administrator.
 
+## Troubleshooting
+
+### Manual Recovery for Interrupted Sessions
+
+In the event of an unexpected application closure during an active blocking session, the system's hosts file will remain modified. A manual procedure is required to restore it to its original state.
+
+1.  Relaunch the MindLocker executable with administrator privileges.
+2.  Initiate a new blocking session with a minimal duration (e.g., one minute). The selection of sites is inconsequential.
+3.  Allow this new session to proceed to its natural conclusion without interruption.
+
+Upon the expiration of the new session's timer, the unblocking mechanism will execute, which clears all MindLocker-related entries from the hosts file and resolves the locked state from the original, interrupted session.
+
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
